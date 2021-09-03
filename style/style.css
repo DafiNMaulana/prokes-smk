@@ -1,0 +1,300 @@
+body {
+	height: 2000px;
+}
+
+.icon-corona {
+	/* filter: drop-shadow(5px 9px 7px rgb(0, 0, 0)); */
+	transition: .6s;
+}
+
+.navbar {
+	transition: .6s;
+	height: 50px;
+}
+
+@media (max-width: 768px) {
+	.navbar-item {
+		margin-top: -23px;
+	}
+	.navbar {
+		height: 60px;
+	}
+}
+
+/*home*/
+#home {
+	background-color: #00bacf;
+	font-family: calibri;
+	padding-top: 50px;
+}
+.line-kesehatan {
+	background-color: #9c6586 !important;
+	opacity: 1;
+}
+
+.shield-hero {
+	margin-left: -100px;
+}
+
+@media (max-width: 768px) {
+	.line-kesehatan {
+		width: 265px;
+	}
+}
+
+.desc-jdl::before {
+	content: '';
+	width: 220px;
+	height: 2px;
+	border-top: 3px solid pink;
+	display: none;
+	margin-left: auto;
+}
+
+@media (max-width: 425px) {
+	.desc-jdl::before {
+		content: '';
+		width: 220px;
+		height: 2px;
+		border-top: 3px solid #dc3545;
+		display: block;
+		margin-left: auto;
+		opacity: .8;
+		margin-bottom: -3px;
+	}
+	.jdl {
+		padding-bottom: 15px;
+	}
+}
+
+
+.img-1 {
+	width: 400px;
+}
+.btn-start {
+	border-radius: 15px;
+	background-color: #006388;
+	letter-spacing: 1px;
+	padding: 0;
+	transition: .5s;
+	margin-bottom: 7rem;
+}
+
+.btn-start:hover {
+	background-color: #014761;
+}
+
+.desc-jdl {
+	color: #fff700;
+	margin-top: -20px;
+	text-shadow: 0 0px 2px #fff700;
+}
+
+/*@media (max-width: 425px) {
+	.desc-jdl {
+		font-size: 20px !important;
+		text-align: left !important;
+		padding-top: 5px;
+	}
+}*/
+
+/*@media (max-width: 375px) {
+	.desc-jdl {
+		font-size: 18px !important;
+	}
+}*/
+
+
+/*jan kendor*/
+#janKendor {
+	font-family: calibri;
+	background-color: #74c4de;
+	padding-top: 2rem;
+}
+.desc-jdl2 {
+	color: #dfff00;
+	margin-top: -20px;
+	text-shadow: 0px 0px 2px #dfff00;
+}
+
+@media (max-width: 768px) {
+	.desc-jdl2 {
+		font-size: 30px;
+	}
+	.desc-vaksin {
+		font-size: 15px !important;
+	}
+	.desc-vaksin1 {
+		margin-top: -10px;
+	}
+}
+
+.jdl-5m {
+	margin-top: -30px;
+}
+.card-jankendor {
+	border-radius: 20px;	
+}
+
+@media (max-width: 768px) {
+	#janKendor {
+		padding-top: 4rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.card-jankendor {
+		margin-right: 10px !important;
+	}
+	#janKendor {
+		padding-top: 3rem;
+	}
+	.card-cuci {
+		margin-left: -10px !important; 
+	}
+}
+
+@media (max-width: 375px) {
+	#janKendor {
+		padding-top: 4rem;
+	}
+}
+
+.jdl-card {
+	line-height: 30px;
+}
+
+/*overlay*/
+#masker, #cuci, #jarak, #kerumunan, #mobilitas {
+	background-color: #00bacf;
+}
+.card-masker {
+	/*background-color: #007c85;*/
+	border-radius: 30px;
+	overflow: hidden;
+}
+.card-masker img {
+	width: 120%;
+	margin-left: -20px;
+}
+
+@media (max-width: 425px) {
+	.cuci {
+		font-size: 20px !important;
+	}
+}
+
+/* vaksin */
+.empat-orang {
+	margin-bottom: -900px;
+}
+
+#vaksin {
+	background-color: #00bacf;
+	font-family: calibri;
+}
+#vaksin svg {
+	margin-top: -250px;
+}
+
+@media (max-width: 768px) {
+	#vaksin svg {
+		margin-top: -140px;
+	}
+}
+
+@media (max-width: 425px) {
+	#vaksin svg {
+		margin-top: -100px;
+	}
+}
+@media (max-width: 325px) {
+	#vaksin svg {
+		margin-top: -95px;
+	}
+}
+
+.img-suntik {
+	margin-left: -160px;
+}
+
+@media (max-width: 768px) {
+	.img-suntik {
+		margin-left: -100px;
+	}
+}
+
+@media (max-width: 425px) {
+	.img-suntik {
+		margin-left: 0;
+	}
+	.row-vaksin {
+		justify-content: center;
+	}
+}
+
+.line-vaksinasi {
+	background-color: #fff;
+	opacity: 1;
+}
+.desc-vaksin {
+	line-height: 22px;
+}
+.row-vaksin {
+	padding-top: 50px;
+	padding-bottom: 250px;
+}
+
+@media (max-width: 425px) {
+	.row-vaksin {
+		padding-bottom: 100px;
+	}
+	.waves-vaksin {
+		margin-bottom: -27px;
+	}
+}
+
+@media (max-width: 320px) {
+	.waves-vaksin {
+		margin-bottom: -48px !important;
+	}
+}
+
+@media (max-width: 375px) {
+	.waves-vaksin {
+		margin-bottom: -38px ;
+	}
+}
+
+.btn-vaksin {
+	padding-bottom: 150px;
+	z-index: 99;
+}
+
+.cont-btn-vaksin {
+	z-index: 99;
+}
+
+/* pesan ibu */
+#pesanIbu {
+	background-color: #74c4de;
+}
+
+.row-pesan {
+	padding-top: 150px;
+}
+
+/* footer */
+footer {
+	background-color: #08192d;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 768px) {
+	footer {
+		font-size: 13px;
+	}
+}
