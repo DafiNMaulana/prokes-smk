@@ -33,7 +33,7 @@
     <img src="https://github.com/DafiNMaulana/ujikom-hotel-part-2/blob/main/public/sona/img/logo.png" alt="Logo" width="200" height="80">
   </a> -->
 
-  <h3 align="center">Health protocol landing page</h3>
+  <h3 align="center">Amazon web services competition</h3>
 
   <p align="center">
     flat landing page Health protocol bootstrap 5
@@ -82,7 +82,8 @@
 
 ``First of all I want to apologize if my English is bad because I am here speaking with the help of a google translator``
 
-this project is a little different because this web design was made by my friend and I made this because we are participating in an AWS competition which as held online in 2021
+this project is a little different because this web design was made by my friend and I made this because we are participating in an AWS competition which was held online in 2021. anyway if you wanna know the person behind of web design his name is `Ajid solehudin`, you can visit his profiles here : [Ajid solehudin](https://github.com/ajidsolehudin)
+, he make the design by using `adobe XD`.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
